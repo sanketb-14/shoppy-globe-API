@@ -22,8 +22,8 @@ ShoppyGlobe E-Commerce API is a backend service built with Node.js, Express.js, 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/shoppyglobe-api.git
-   cd shoppyglobe-api
+   git clone https://github.com/sanketb-14/shoppy-globe-api.git
+   cd shoppy-globe-api
    ```
 
 2. Install dependencies:
