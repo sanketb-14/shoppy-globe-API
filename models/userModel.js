@@ -37,6 +37,8 @@ const userSchema = new mongoose.Schema({
 })
 
 userSchema.pre("save", async function(next){
+    // Hash the password before saving the user document
+    // This middleware runs before every 'save' operation on a User document
     this.password = await bcrypt.hash(this.password, 12);
     this.passwordConfirm = undefined;
     next();
